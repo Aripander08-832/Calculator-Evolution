@@ -428,7 +428,7 @@ function calcShopMax() {
   return tempArr;
 }
 function calcMaxDigit() {
-  var tempNum = D(6);
+  var tempNum = D(60);
   tempNum = tempNum.plus(game.researchLevel[2]);
   if (game.quantumUpgradeBought.includes('12')) tempNum = tempNum.plus(game.base.pow(0.6).floor());
   if (game.challengeEntered == 1 || game.challengeEntered == 7) tempNum = D.min(tempNum, 20);
@@ -446,12 +446,12 @@ function calcMoneyGain() {
   moneyGain = D.max(0, calcCPU().mul(game.number)).div(3e4);
   if (game.achievements.includes(1)) moneyGain = moneyGain.mul(1.25);
   if (game.achievements.includes(13)) moneyGain = moneyGain.mul(5);
-  if (game.achievements.includes(13)) moneyGain = moneyGain.mul(10);
-  if (game.achievements.includes(20)) moneyGain = moneyGain.mul(10);
+  if (game.achievements.includes(13)) moneyGain = moneyGain.mul(35);
+  if (game.achievements.includes(20)) moneyGain = moneyGain.mul(350);
   if (game.shopBought[1] >= 1) moneyGain = moneyGain.mul(game.digits);
-  if (game.shopBought[1] >= 2) moneyGain = moneyGain.mul(game.researchPoint.add(1));
+  if (game.shopBought[1] >= 2) moneyGain = moneyGain.mul(game.researchPoint.add(10));
   if (game.shopBought[1] >= 3) moneyGain = moneyGain.mul(getOverclockPower());
-  if (game.shopBought[1] >= 4) moneyGain = moneyGain.mul(D(2.4).pow(game.qubit));
+  if (game.shopBought[1] >= 4) moneyGain = moneyGain.mul(D(8.9).pow(game.qubit));
   moneyGain = moneyGain.mul(singularityBoosts.MoneyBoost);
   return moneyGain;
 }
