@@ -11,17 +11,17 @@
       },
       {
         "itemName": "Base_Increaser_2.0.exe",
-        "itemCost": '1.004e33',
+        "itemCost": '1.004e3',
         "itemDesc": "Can increase base with only 12 digits",
       },
       {
         "itemName": "Base_Increaser_3.0.exe",
-        "itemCost": '1.1111e45',
+        "itemCost": '1.1111e5',
         "itemDesc": "Extend base cap based on Digits",
       },
       {
         "itemName": "Base_Increaser_4.0.exe",
-        "itemCost": '8.421e100',
+        "itemCost": '8.421e10',
         "itemDesc": "Increase base won't reset memory",
       },
       {
@@ -34,17 +34,17 @@
     [
       {
         "itemName": "Miner_2.0.exe",
-        "itemCost": '1e6',
+        "itemCost": '1e2',
         "itemDesc": "Multiply mine power by Digits",
       },
       {
         "itemName": "Miner_3.0.exe",
-        "itemCost": '2.4680e55',
+        "itemCost": '2.4680e5',
         "itemDesc": "Multiply mine power by Research Point",
       },
       {
         "itemName": "Miner_4.0.exe",
-        "itemCost": '2.2222e179',
+        "itemCost": '2.2222e9',
         "itemDesc": "Multiply mine power by Overclock Power",
       },
       {
@@ -57,7 +57,7 @@
     [
       {
         "itemName": "Data_Holder.exe",
-        "itemCost": '2e15',
+        "itemCost": '2e5',
         "itemDesc": "Keep your Base and Programs on reboot",
       },
       {
