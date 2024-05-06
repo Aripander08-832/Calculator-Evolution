@@ -410,7 +410,7 @@ function calcShopCost(idx, lv) {
     if (typeof tempObj != "undefined") cost = D(tempObj.itemCost);
       break;
     case 5:
-    cost = D(3+lv/9).pow(lv).div(50);
+    cost = D(3+lv/9).pow(lv/4).div(5);
       break;
     default:
 
