@@ -84,7 +84,7 @@
     [
       {
         "itemName": "Memory_2.0.exe",
-        "itemCost": '4.4444e70',
+        "itemCost": '4.4444e7',
         "itemDesc": "Increase digit won't reset anything",
       },
     ]
