@@ -49,7 +49,7 @@
       },
       {
         "itemName": "Miner_5.0.exe",
-        "itemCost": '4.04e1000',
+        "itemCost": '4.04e100',
         "itemDesc": "Each Qubit multiply Mine Power by x2.4",
       }
     ],
