@@ -425,25 +425,25 @@ function calcChallengeGoal(idx, lv=game.wormholeChallengeProgress[idx]) {
   var goal = D(Infinity);
   switch (idx) {
     case 0:
-      goal = D(1).add(lv**2);
+      goal = D(1).add(lv**1.2);
       break;
     case 1:
-      goal = D(1).add(lv**2);
+      goal = D(1).add(lv**1.2);
       break;
     case 2:
       goal = D(2).mul(lv+1);
       break;
     case 3:
-      goal = D(3).mul((lv/2+1)**2);
+      goal = D(3).mul((lv/2+1)**1.2);
       break;
     case 4:
-      goal = D(10).add(lv**2);
+      goal = D(10).add(lv**1.2);
       break;
     case 5:
-      goal = D(50).add(10*lv);
+      goal = D(50).add(2*lv);
       break;
     case 6:
-      goal = D(73).add((10+lv)*lv);
+      goal = D(33).add((5+lv)*lv);
       break;
     case 7:
       goal = D(202).mul(lv/10+1);
