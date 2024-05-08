@@ -446,7 +446,7 @@ function calcChallengeGoal(idx, lv=game.wormholeChallengeProgress[idx]) {
       goal = D(33).add((5+lv)*lv);
       break;
     case 7:
-      goal = D(20).mul(lv/5+1);
+      goal = D(2).mul(lv/5+1);
       break;
   }
   if (lv >= 5) goal = goal.pow(lv/25+0.8);
